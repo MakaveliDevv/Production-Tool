@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self';
+        script-src 'self';
+        style-src 'self' 'unsafe-inline';
+        img-src 'self' data: file:;
+      ">
+  <title>SnapTile</title>
+</head>
+<body>
+  <div id="app"></div>
+  <!-- Vite injects your compiled JS here -->
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
+<!-- Remove-Item .\dist -Recurse -Force -->
+<!-- npm install --save-dev cross-env concurrently -->
